@@ -1,0 +1,1150 @@
+<html><head><title>Request-log-analyzer report</title><style type="text/css">
+        body {
+        	font: normal 11px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        	color: #4f6b72;
+        	background: #E6EAE9;
+        	padding-left:20px;
+        	padding-top:20px;
+        	padding-bottom:20px;
+        }
+
+        a {
+        	color: #c75f3e;
+        }
+
+        .color_bar {
+          border: 1px solid;
+          height:10px;
+        	background: #CAE8EA;
+        }
+
+        #mytable {
+        	width: 700px;
+        	padding: 0;
+        	margin: 0;
+        	padding-bottom:10px;
+        }
+
+        caption {
+        	padding: 0 0 5px 0;
+        	width: 700px;	
+        	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        	text-align: right;
+        }
+
+        th {
+        	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        	color: #4f6b72;
+        	border-right: 1px solid #C1DAD7;
+        	border-bottom: 1px solid #C1DAD7;
+        	border-top: 1px solid #C1DAD7;
+        	letter-spacing: 2px;
+        	text-transform: uppercase;
+        	text-align: left;
+        	padding: 6px 6px 6px 12px;
+        	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+        }
+
+        td {
+        	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        	border-right: 1px solid #C1DAD7;
+        	border-bottom: 1px solid #C1DAD7;
+        	background: #fff;
+        	padding: 6px 6px 6px 12px;
+        	color: #4f6b72;
+        }
+
+        td.alt {
+        	background: #F5FAFA;
+        	color: #797268;
+        }
+        </style></head><body><h1>Request-log-analyzer summary report</h1><p>Version 1.12.8 - written by Willem van Bergen and Bart ten Brinke</p><h2>Request summary</h2>
+<table id="mytable" cellspacing="0"><tr><td class="alt">Processsed File:</td>
+<td class="alt">/Users/kazuya/Desktop/production.log</td></tr><tr><td>Parsed lines:</td>
+<td>3245001</td></tr><tr><td class="alt">Skipped lines:</td>
+<td class="alt">0</td></tr><tr><td>Parsed requests:</td>
+<td>1624927</td></tr><tr><td class="alt">Skipped requests:</td>
+<td class="alt">1622385</td></tr><tr><td>Warnings:</td>
+<td>teaser_check_failed: 1</td></tr></table>
+<table id="mytable" cellspacing="0"><tr><td class="alt">First request:</td>
+<td class="alt">2013-04-01 01:13:01</td></tr><tr><td>Last request:</td>
+<td>2013-05-17 11:02:11</td></tr><tr><td class="alt">Total time analyzed:</td>
+<td class="alt">47 days</td></tr></table><h2>Request distribution per hour</h2>
+<table id="mytable" cellspacing="0"><tr><td class="alt">  0:00</td>
+<td class="alt">1 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:3px;"/></td></tr><tr><td>  1:00</td>
+<td>2 hits/day</td>
+<td><div class='color_bar' style="width:5px;"/></td></tr><tr><td class="alt">  2:00</td>
+<td class="alt">1 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:1px;"/></td></tr><tr><td>  3:00</td>
+<td>1 hits/day</td>
+<td><div class='color_bar' style="width:0px;"/></td></tr><tr><td class="alt">  4:00</td>
+<td class="alt">1 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:0px;"/></td></tr><tr><td>  5:00</td>
+<td>1 hits/day</td>
+<td><div class='color_bar' style="width:1px;"/></td></tr><tr><td class="alt">  6:00</td>
+<td class="alt">0 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:0px;"/></td></tr><tr><td>  7:00</td>
+<td>1 hits/day</td>
+<td><div class='color_bar' style="width:1px;"/></td></tr><tr><td class="alt">  8:00</td>
+<td class="alt">1 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:2px;"/></td></tr><tr><td>  9:00</td>
+<td>5 hits/day</td>
+<td><div class='color_bar' style="width:15px;"/></td></tr><tr><td class="alt"> 10:00</td>
+<td class="alt">4 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:13px;"/></td></tr><tr><td> 11:00</td>
+<td>7 hits/day</td>
+<td><div class='color_bar' style="width:23px;"/></td></tr><tr><td class="alt"> 12:00</td>
+<td class="alt">2 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:3px;"/></td></tr><tr><td> 13:00</td>
+<td>5 hits/day</td>
+<td><div class='color_bar' style="width:15px;"/></td></tr><tr><td class="alt"> 14:00</td>
+<td class="alt">5 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:14px;"/></td></tr><tr><td> 15:00</td>
+<td>9 hits/day</td>
+<td><div class='color_bar' style="width:32px;"/></td></tr><tr><td class="alt"> 16:00</td>
+<td class="alt">5 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:16px;"/></td></tr><tr><td> 17:00</td>
+<td>4 hits/day</td>
+<td><div class='color_bar' style="width:12px;"/></td></tr><tr><td class="alt"> 18:00</td>
+<td class="alt">4 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:13px;"/></td></tr><tr><td> 19:00</td>
+<td>1 hits/day</td>
+<td><div class='color_bar' style="width:2px;"/></td></tr><tr><td class="alt"> 20:00</td>
+<td class="alt">2 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:5px;"/></td></tr><tr><td> 21:00</td>
+<td>2 hits/day</td>
+<td><div class='color_bar' style="width:5px;"/></td></tr><tr><td class="alt"> 22:00</td>
+<td class="alt">2 hits/day</td>
+<td class="alt"><div class='color_bar' style="width:5px;"/></td></tr><tr><td> 23:00</td>
+<td>1 hits/day</td>
+<td><div class='color_bar' style="width:3px;"/></td></tr></table><h2>Most requested</h2>
+<table id="mytable" cellspacing="0"><tr><td class="alt">SchedulesController#index.html [GET]</td>
+<td class="alt">561 hits</td>
+<td class="alt">22.1%</td>
+<td class="alt"><div class='color_bar' style="width:44px;"/></td></tr><tr><td>GroupSchedulesController#index.html [GET]</td>
+<td>259 hits</td>
+<td>10.2%</td>
+<td><div class='color_bar' style="width:20px;"/></td></tr><tr><td class="alt">MessagesController#index.html [GET]</td>
+<td class="alt">198 hits</td>
+<td class="alt">7.8%</td>
+<td class="alt"><div class='color_bar' style="width:15px;"/></td></tr><tr><td>GlobalTopicsController#index.html [GET]</td>
+<td>190 hits</td>
+<td>7.5%</td>
+<td><div class='color_bar' style="width:14px;"/></td></tr><tr><td class="alt">WorkflowsController#index.html [GET]</td>
+<td class="alt">174 hits</td>
+<td class="alt">6.8%</td>
+<td class="alt"><div class='color_bar' style="width:13px;"/></td></tr><tr><td>ReportsController#index.html [GET]</td>
+<td>135 hits</td>
+<td>5.3%</td>
+<td><div class='color_bar' style="width:10px;"/></td></tr><tr><td class="alt">TopicRelatedContentsController#index.html [GET]</td>
+<td class="alt">115 hits</td>
+<td class="alt">4.5%</td>
+<td class="alt"><div class='color_bar' style="width:9px;"/></td></tr><tr><td>FileManagerFolderFileItemsController#index.json [GET]</td>
+<td>103 hits</td>
+<td>4.1%</td>
+<td><div class='color_bar' style="width:8px;"/></td></tr><tr><td class="alt">TasksController#index.html [GET]</td>
+<td class="alt">102 hits</td>
+<td class="alt">4.0%</td>
+<td class="alt"><div class='color_bar' style="width:8px;"/></td></tr><tr><td>QuestionnaireController#index.html [GET]</td>
+<td>98 hits</td>
+<td>3.9%</td>
+<td><div class='color_bar' style="width:7px;"/></td></tr><tr><td class="alt">CallNotesController#index.html [GET]</td>
+<td class="alt">93 hits</td>
+<td class="alt">3.7%</td>
+<td class="alt"><div class='color_bar' style="width:7px;"/></td></tr><tr><td>WorkflowFormsController#index.html [GET]</td>
+<td>91 hits</td>
+<td>3.6%</td>
+<td><div class='color_bar' style="width:7px;"/></td></tr><tr><td class="alt">WikiPageRelatedContentsController#index.html [GET]</td>
+<td class="alt">78 hits</td>
+<td class="alt">3.1%</td>
+<td class="alt"><div class='color_bar' style="width:6px;"/></td></tr><tr><td>ApplicationController#index.html [GET]</td>
+<td>56 hits</td>
+<td>2.2%</td>
+<td><div class='color_bar' style="width:4px;"/></td></tr><tr><td class="alt">NewsItemsController#index.html [GET]</td>
+<td class="alt">56 hits</td>
+<td class="alt">2.2%</td>
+<td class="alt"><div class='color_bar' style="width:4px;"/></td></tr><tr><td>ReportRelatedContentsController#index.html [GET]</td>
+<td>50 hits</td>
+<td>2.0%</td>
+<td><div class='color_bar' style="width:3px;"/></td></tr><tr><td class="alt">FileItemRelatedContentsController#index.html [GET]</td>
+<td class="alt">45 hits</td>
+<td class="alt">1.8%</td>
+<td class="alt"><div class='color_bar' style="width:3px;"/></td></tr><tr><td>BookmarksController#index.html [GET]</td>
+<td>32 hits</td>
+<td>1.3%</td>
+<td><div class='color_bar' style="width:2px;"/></td></tr><tr><td class="alt">NewslettersController#index.html [GET]</td>
+<td class="alt">26 hits</td>
+<td class="alt">1.0%</td>
+<td class="alt"><div class='color_bar' style="width:2px;"/></td></tr><tr><td>TopicsController#index.html [GET]</td>
+<td>22 hits</td>
+<td>0.9%</td>
+<td><div class='color_bar' style="width:1px;"/></td></tr></table><h2>HTTP methods</h2>
+<table id="mytable" cellspacing="0"><tr><td class="alt">GET</td>
+<td class="alt">2542 hits</td>
+<td class="alt">100.0%</td>
+<td class="alt"><div class='color_bar' style="width:200px;"/></td></tr></table><h2>HTTP statuses returned</h2>
+<table id="mytable" cellspacing="0"><tr><td class="alt">200</td>
+<td class="alt">2466 hits</td>
+<td class="alt">99.8%</td>
+<td class="alt"><div class='color_bar' style="width:199px;"/></td></tr><tr><td>302</td>
+<td>4 hits</td>
+<td>0.2%</td>
+<td><div class='color_bar' style="width:0px;"/></td></tr></table><h2>Rails action cache hits</h2>
+<table id="mytable" cellspacing="0"><tr><td class="alt">No hit</td>
+<td class="alt">2542 hits</td>
+<td class="alt">100.0%</td>
+<td class="alt"><div class='color_bar' style="width:200px;"/></td></tr></table><br/>
+<table id="mytable" cellspacing="0"><tr><th>Request duration - by sum</th>
+<th>Hits</th>
+<th>Sum</th>
+<th>Mean</th>
+<th>StdDev</th>
+<th>Min</th>
+<th>Max</th>
+<th>95 %tile</th></tr><tr><td class="alt">SchedulesController#index.html [GET]</td>
+<td class="alt">555</td>
+<td class="alt">14m52s</td>
+<td class="alt">1.61s</td>
+<td class="alt">0.66s</td>
+<td class="alt">0.68s</td>
+<td class="alt">5.67s</td>
+<td class="alt">0.81s-3.49s</td></tr><tr><td>MessagesController#index.html [GET]</td>
+<td>196</td>
+<td>5m03s</td>
+<td>1.55s</td>
+<td>0.60s</td>
+<td>1.07s</td>
+<td>4.75s</td>
+<td>1.06s-3.17s</td></tr><tr><td class="alt">GlobalTopicsController#index.html [GET]</td>
+<td class="alt">189</td>
+<td class="alt">4m35s</td>
+<td class="alt">1.46s</td>
+<td class="alt">0.43s</td>
+<td class="alt">0.85s</td>
+<td class="alt">4.30s</td>
+<td class="alt">1.13s-2.79s</td></tr><tr><td>GroupSchedulesController#index.html [GET]</td>
+<td>257</td>
+<td>4m18s</td>
+<td>1.00s</td>
+<td>0.24s</td>
+<td>0.53s</td>
+<td>2.24s</td>
+<td>0.77s-1.72s</td></tr><tr><td class="alt">ReportsController#index.html [GET]</td>
+<td class="alt">133</td>
+<td class="alt">3m34s</td>
+<td class="alt">1.61s</td>
+<td class="alt">0.48s</td>
+<td class="alt">1.07s</td>
+<td class="alt">4.02s</td>
+<td class="alt">1.19s-3.12s</td></tr><tr><td>WorkflowsController#index.html [GET]</td>
+<td>173</td>
+<td>3m19s</td>
+<td>1.15s</td>
+<td>0.37s</td>
+<td>0.83s</td>
+<td>2.67s</td>
+<td>0.83s-2.37s</td></tr><tr><td class="alt">QuestionnaireController#index.html [GET]</td>
+<td class="alt">98</td>
+<td class="alt">1m48s</td>
+<td class="alt">1.10s</td>
+<td class="alt">0.36s</td>
+<td class="alt">0.82s</td>
+<td class="alt">2.66s</td>
+<td class="alt">0.83s-2.37s</td></tr><tr><td>TasksController#index.html [GET]</td>
+<td>102</td>
+<td>1m44s</td>
+<td>1.02s</td>
+<td>0.42s</td>
+<td>0.60s</td>
+<td>3.22s</td>
+<td>0.61s-2.30s</td></tr><tr><td class="alt">CallNotesController#index.html [GET]</td>
+<td class="alt">93</td>
+<td class="alt">1m40s</td>
+<td class="alt">1.07s</td>
+<td class="alt">0.42s</td>
+<td class="alt">0.81s</td>
+<td class="alt">3.74s</td>
+<td class="alt">0.81s-2.22s</td></tr><tr><td>WorkflowFormsController#index.html [GET]</td>
+<td>91</td>
+<td>1m21s</td>
+<td>0.89s</td>
+<td>0.12s</td>
+<td>0.80s</td>
+<td>1.56s</td>
+<td>0.79s-1.29s</td></tr><tr><td class="alt">TopicRelatedContentsController#index.html [GET]</td>
+<td class="alt">115</td>
+<td class="alt">1m01s</td>
+<td class="alt">0.53s</td>
+<td class="alt">0.29s</td>
+<td class="alt">0.28s</td>
+<td class="alt">2.05s</td>
+<td class="alt">0.28s-1.35s</td></tr><tr><td>WikiPageRelatedContentsController#index.html [GET]</td>
+<td>78</td>
+<td>57.73s</td>
+<td>0.74s</td>
+<td>0.29s</td>
+<td>0.27s</td>
+<td>1.47s</td>
+<td>0.30s-1.29s</td></tr><tr><td class="alt">NewsItemsController#index.html [GET]</td>
+<td class="alt">55</td>
+<td class="alt">56.50s</td>
+<td class="alt">1.03s</td>
+<td class="alt">0.31s</td>
+<td class="alt">0.82s</td>
+<td class="alt">2.58s</td>
+<td class="alt">0.82s-1.83s</td></tr><tr><td>FileManagerFolderFileItemsController#index.json [GET]</td>
+<td>103</td>
+<td>45.68s</td>
+<td>0.44s</td>
+<td>0.15s</td>
+<td>0.29s</td>
+<td>1.03s</td>
+<td>0.28s-0.82s</td></tr><tr><td class="alt">FileItemRelatedContentsController#index.html [GET]</td>
+<td class="alt">45</td>
+<td class="alt">37.21s</td>
+<td class="alt">0.83s</td>
+<td class="alt">0.29s</td>
+<td class="alt">0.34s</td>
+<td class="alt">1.54s</td>
+<td class="alt">0.37s-1.56s</td></tr><tr><td>BookmarksController#index.html [GET]</td>
+<td>32</td>
+<td>36.70s</td>
+<td>1.15s</td>
+<td>0.49s</td>
+<td>0.61s</td>
+<td>2.61s</td>
+<td>0.60s-2.61s</td></tr><tr><td class="alt">NewslettersController#index.html [GET]</td>
+<td class="alt">25</td>
+<td class="alt">35.41s</td>
+<td class="alt">1.42s</td>
+<td class="alt">0.50s</td>
+<td class="alt">0.88s</td>
+<td class="alt">2.85s</td>
+<td class="alt">0.87s-2.88s</td></tr><tr><td>ReportRelatedContentsController#index.html [GET]</td>
+<td>50</td>
+<td>31.67s</td>
+<td>0.63s</td>
+<td>0.43s</td>
+<td>0.28s</td>
+<td>2.29s</td>
+<td>0.29s-2.30s</td></tr><tr><td class="alt">TopicsController#index.html [GET]</td>
+<td class="alt">22</td>
+<td class="alt">29.52s</td>
+<td class="alt">1.34s</td>
+<td class="alt">0.20s</td>
+<td class="alt">1.06s</td>
+<td class="alt">1.75s</td>
+<td class="alt">1.06s-1.77s</td></tr><tr><td>WikiPagesController#index.html [GET]</td>
+<td>11</td>
+<td>19.33s</td>
+<td>1.76s</td>
+<td>0.15s</td>
+<td>1.59s</td>
+<td>2.05s</td>
+<td>1.58s-2.08s</td></tr></table><br/>
+<table id="mytable" cellspacing="0"><tr><th>Request duration - by mean</th>
+<th>Hits</th>
+<th>Sum</th>
+<th>Mean</th>
+<th>StdDev</th>
+<th>Min</th>
+<th>Max</th>
+<th>95 %tile</th></tr><tr><td class="alt">DiarySubscriptionsController#index.html [GET]</td>
+<td class="alt">5</td>
+<td class="alt">9.11s</td>
+<td class="alt">1.82s</td>
+<td class="alt">0.38s</td>
+<td class="alt">1.48s</td>
+<td class="alt">2.27s</td>
+<td class="alt">1.46s-2.30s</td></tr><tr><td>WikiPagesController#index.html [GET]</td>
+<td>11</td>
+<td>19.33s</td>
+<td>1.76s</td>
+<td>0.15s</td>
+<td>1.59s</td>
+<td>2.05s</td>
+<td>1.58s-2.08s</td></tr><tr><td class="alt">ReportsController#index.html [GET]</td>
+<td class="alt">133</td>
+<td class="alt">3m34s</td>
+<td class="alt">1.61s</td>
+<td class="alt">0.48s</td>
+<td class="alt">1.07s</td>
+<td class="alt">4.02s</td>
+<td class="alt">1.19s-3.12s</td></tr><tr><td>SchedulesController#index.html [GET]</td>
+<td>555</td>
+<td>14m52s</td>
+<td>1.61s</td>
+<td>0.66s</td>
+<td>0.68s</td>
+<td>5.67s</td>
+<td>0.81s-3.49s</td></tr><tr><td class="alt">MessagesController#index.html [GET]</td>
+<td class="alt">196</td>
+<td class="alt">5m03s</td>
+<td class="alt">1.55s</td>
+<td class="alt">0.60s</td>
+<td class="alt">1.07s</td>
+<td class="alt">4.75s</td>
+<td class="alt">1.06s-3.17s</td></tr><tr><td>GlobalTopicsController#index.html [GET]</td>
+<td>189</td>
+<td>4m35s</td>
+<td>1.46s</td>
+<td>0.43s</td>
+<td>0.85s</td>
+<td>4.30s</td>
+<td>1.13s-2.79s</td></tr><tr><td class="alt">FunctionRestrictsController#index.html [GET]</td>
+<td class="alt">3</td>
+<td class="alt">4.28s</td>
+<td class="alt">1.43s</td>
+<td class="alt">0.55s</td>
+<td class="alt">0.86s</td>
+<td class="alt">1.96s</td>
+<td class="alt">0.86s-1.99s</td></tr><tr><td>NewslettersController#index.html [GET]</td>
+<td>25</td>
+<td>35.41s</td>
+<td>1.42s</td>
+<td>0.50s</td>
+<td>0.88s</td>
+<td>2.85s</td>
+<td>0.87s-2.88s</td></tr><tr><td class="alt">TopicsController#index.html [GET]</td>
+<td class="alt">22</td>
+<td class="alt">29.52s</td>
+<td class="alt">1.34s</td>
+<td class="alt">0.20s</td>
+<td class="alt">1.06s</td>
+<td class="alt">1.75s</td>
+<td class="alt">1.06s-1.77s</td></tr><tr><td>DiariesController#index.html [GET]</td>
+<td>9</td>
+<td>11.94s</td>
+<td>1.33s</td>
+<td>0.20s</td>
+<td>0.90s</td>
+<td>1.63s</td>
+<td>0.89s-1.64s</td></tr><tr><td class="alt">MailConfigsController#index.html [GET]</td>
+<td class="alt">3</td>
+<td class="alt">3.60s</td>
+<td class="alt">1.20s</td>
+<td class="alt">0.38s</td>
+<td class="alt">0.89s</td>
+<td class="alt">1.62s</td>
+<td class="alt">0.89s-1.64s</td></tr><tr><td>WorkflowsController#index.html [GET]</td>
+<td>173</td>
+<td>3m19s</td>
+<td>1.15s</td>
+<td>0.37s</td>
+<td>0.83s</td>
+<td>2.67s</td>
+<td>0.83s-2.37s</td></tr><tr><td class="alt">BookmarksController#index.html [GET]</td>
+<td class="alt">32</td>
+<td class="alt">36.70s</td>
+<td class="alt">1.15s</td>
+<td class="alt">0.49s</td>
+<td class="alt">0.61s</td>
+<td class="alt">2.61s</td>
+<td class="alt">0.60s-2.61s</td></tr><tr><td>QuestionnaireController#index.html [GET]</td>
+<td>98</td>
+<td>1m48s</td>
+<td>1.10s</td>
+<td>0.36s</td>
+<td>0.82s</td>
+<td>2.66s</td>
+<td>0.83s-2.37s</td></tr><tr><td class="alt">GroupManager::GroupPermissionsController#index.html [GET]</td>
+<td class="alt">2</td>
+<td class="alt">2.19s</td>
+<td class="alt">1.09s</td>
+<td class="alt">0.01s</td>
+<td class="alt">1.09s</td>
+<td class="alt">1.10s</td>
+<td class="alt">1.08s-1.11s</td></tr><tr><td>CallNotesController#index.html [GET]</td>
+<td>93</td>
+<td>1m40s</td>
+<td>1.07s</td>
+<td>0.42s</td>
+<td>0.81s</td>
+<td>3.74s</td>
+<td>0.81s-2.22s</td></tr><tr><td class="alt">NewsItemsController#index.html [GET]</td>
+<td class="alt">55</td>
+<td class="alt">56.50s</td>
+<td class="alt">1.03s</td>
+<td class="alt">0.31s</td>
+<td class="alt">0.82s</td>
+<td class="alt">2.58s</td>
+<td class="alt">0.82s-1.83s</td></tr><tr><td>TasksController#index.html [GET]</td>
+<td>102</td>
+<td>1m44s</td>
+<td>1.02s</td>
+<td>0.42s</td>
+<td>0.60s</td>
+<td>3.22s</td>
+<td>0.61s-2.30s</td></tr><tr><td class="alt">GroupSchedulesController#index.html [GET]</td>
+<td class="alt">257</td>
+<td class="alt">4m18s</td>
+<td class="alt">1.00s</td>
+<td class="alt">0.24s</td>
+<td class="alt">0.53s</td>
+<td class="alt">2.24s</td>
+<td class="alt">0.77s-1.72s</td></tr><tr><td>ContentTemplatesController#index.html [GET]</td>
+<td>11</td>
+<td>10.79s</td>
+<td>0.98s</td>
+<td>0.18s</td>
+<td>0.83s</td>
+<td>1.33s</td>
+<td>0.82s-1.35s</td></tr></table><br/>
+<table id="mytable" cellspacing="0"><tr><th>View rendering time - by sum</th>
+<th>Hits</th>
+<th>Sum</th>
+<th>Mean</th>
+<th>StdDev</th>
+<th>Min</th>
+<th>Max</th>
+<th>95 %tile</th></tr><tr><td class="alt">SchedulesController#index.html [GET]</td>
+<td class="alt">555</td>
+<td class="alt">10m15s</td>
+<td class="alt">1.11s</td>
+<td class="alt">0.51s</td>
+<td class="alt">0.29s</td>
+<td class="alt">3.50s</td>
+<td class="alt">0.35s-2.45s</td></tr><tr><td>GlobalTopicsController#index.html [GET]</td>
+<td>189</td>
+<td>2m59s</td>
+<td>0.95s</td>
+<td>0.25s</td>
+<td>0.46s</td>
+<td>2.40s</td>
+<td>0.67s-1.77s</td></tr><tr><td class="alt">MessagesController#index.html [GET]</td>
+<td class="alt">196</td>
+<td class="alt">2m38s</td>
+<td class="alt">0.81s</td>
+<td class="alt">0.33s</td>
+<td class="alt">0.54s</td>
+<td class="alt">1.93s</td>
+<td class="alt">0.54s-1.92s</td></tr><tr><td>ReportsController#index.html [GET]</td>
+<td>133</td>
+<td>2m26s</td>
+<td>1.10s</td>
+<td>0.36s</td>
+<td>0.77s</td>
+<td>2.52s</td>
+<td>0.83s-2.37s</td></tr><tr><td class="alt">GroupSchedulesController#index.html [GET]</td>
+<td class="alt">257</td>
+<td class="alt">2m12s</td>
+<td class="alt">0.51s</td>
+<td class="alt">0.20s</td>
+<td class="alt">0.01s</td>
+<td class="alt">1.87s</td>
+<td class="alt">0.28s-1.08s</td></tr><tr><td>WorkflowsController#index.html [GET]</td>
+<td>173</td>
+<td>1m52s</td>
+<td>0.65s</td>
+<td>0.21s</td>
+<td>0.34s</td>
+<td>1.59s</td>
+<td>0.53s-1.29s</td></tr><tr><td class="alt">CallNotesController#index.html [GET]</td>
+<td class="alt">93</td>
+<td class="alt">54.83s</td>
+<td class="alt">0.59s</td>
+<td class="alt">0.20s</td>
+<td class="alt">0.31s</td>
+<td class="alt">1.45s</td>
+<td class="alt">0.31s-1.33s</td></tr><tr><td>TasksController#index.html [GET]</td>
+<td>102</td>
+<td>54.76s</td>
+<td>0.54s</td>
+<td>0.27s</td>
+<td>0.30s</td>
+<td>1.75s</td>
+<td>0.30s-1.33s</td></tr><tr><td class="alt">QuestionnaireController#index.html [GET]</td>
+<td class="alt">98</td>
+<td class="alt">53.85s</td>
+<td class="alt">0.55s</td>
+<td class="alt">0.20s</td>
+<td class="alt">0.32s</td>
+<td class="alt">1.33s</td>
+<td class="alt">0.33s-1.21s</td></tr><tr><td>WorkflowFormsController#index.html [GET]</td>
+<td>91</td>
+<td>40.90s</td>
+<td>0.45s</td>
+<td>0.12s</td>
+<td>0.29s</td>
+<td>0.69s</td>
+<td>0.30s-0.70s</td></tr><tr><td class="alt">NewsItemsController#index.html [GET]</td>
+<td class="alt">55</td>
+<td class="alt">32.12s</td>
+<td class="alt">0.58s</td>
+<td class="alt">0.22s</td>
+<td class="alt">0.33s</td>
+<td class="alt">1.90s</td>
+<td class="alt">0.33s-1.13s</td></tr><tr><td>NewslettersController#index.html [GET]</td>
+<td>25</td>
+<td>22.02s</td>
+<td>0.88s</td>
+<td>0.38s</td>
+<td>0.35s</td>
+<td>1.78s</td>
+<td>0.35s-1.80s</td></tr><tr><td class="alt">BookmarksController#index.html [GET]</td>
+<td class="alt">32</td>
+<td class="alt">20.21s</td>
+<td class="alt">0.63s</td>
+<td class="alt">0.28s</td>
+<td class="alt">0.32s</td>
+<td class="alt">1.50s</td>
+<td class="alt">0.32s-1.51s</td></tr><tr><td>TopicsController#index.html [GET]</td>
+<td>22</td>
+<td>18.91s</td>
+<td>0.86s</td>
+<td>0.18s</td>
+<td>0.56s</td>
+<td>1.30s</td>
+<td>0.56s-1.31s</td></tr><tr><td class="alt">WikiPagesController#index.html [GET]</td>
+<td class="alt">11</td>
+<td class="alt">15.13s</td>
+<td class="alt">1.38s</td>
+<td class="alt">0.11s</td>
+<td class="alt">1.13s</td>
+<td class="alt">1.53s</td>
+<td class="alt">1.13s-1.53s</td></tr><tr><td>DiariesController#index.html [GET]</td>
+<td>9</td>
+<td>7.88s</td>
+<td>0.88s</td>
+<td>0.14s</td>
+<td>0.57s</td>
+<td>1.06s</td>
+<td>0.56s-1.08s</td></tr><tr><td class="alt">WikiPageRelatedContentsController#index.html [GET]</td>
+<td class="alt">78</td>
+<td class="alt">7.69s</td>
+<td class="alt">0.10s</td>
+<td class="alt">0.16s</td>
+<td class="alt">0.00s</td>
+<td class="alt">0.49s</td>
+<td class="alt">0.00s-0.49s</td></tr><tr><td>DiarySubscriptionsController#index.html [GET]</td>
+<td>5</td>
+<td>6.16s</td>
+<td>1.23s</td>
+<td>0.18s</td>
+<td>0.99s</td>
+<td>1.44s</td>
+<td>0.98s-1.44s</td></tr><tr><td class="alt">ContentTemplatesController#index.html [GET]</td>
+<td class="alt">11</td>
+<td class="alt">6.01s</td>
+<td class="alt">0.55s</td>
+<td class="alt">0.11s</td>
+<td class="alt">0.33s</td>
+<td class="alt">0.69s</td>
+<td class="alt">0.33s-0.70s</td></tr><tr><td>FunctionRestrictsController#index.html [GET]</td>
+<td>3</td>
+<td>2.41s</td>
+<td>0.80s</td>
+<td>0.46s</td>
+<td>0.32s</td>
+<td>1.24s</td>
+<td>0.32s-1.24s</td></tr></table><br/>
+<table id="mytable" cellspacing="0"><tr><th>View rendering time - by mean</th>
+<th>Hits</th>
+<th>Sum</th>
+<th>Mean</th>
+<th>StdDev</th>
+<th>Min</th>
+<th>Max</th>
+<th>95 %tile</th></tr><tr><td class="alt">WikiPagesController#index.html [GET]</td>
+<td class="alt">11</td>
+<td class="alt">15.13s</td>
+<td class="alt">1.38s</td>
+<td class="alt">0.11s</td>
+<td class="alt">1.13s</td>
+<td class="alt">1.53s</td>
+<td class="alt">1.13s-1.53s</td></tr><tr><td>DiarySubscriptionsController#index.html [GET]</td>
+<td>5</td>
+<td>6.16s</td>
+<td>1.23s</td>
+<td>0.18s</td>
+<td>0.99s</td>
+<td>1.44s</td>
+<td>0.98s-1.44s</td></tr><tr><td class="alt">SchedulesController#index.html [GET]</td>
+<td class="alt">555</td>
+<td class="alt">10m15s</td>
+<td class="alt">1.11s</td>
+<td class="alt">0.51s</td>
+<td class="alt">0.29s</td>
+<td class="alt">3.50s</td>
+<td class="alt">0.35s-2.45s</td></tr><tr><td>ReportsController#index.html [GET]</td>
+<td>133</td>
+<td>2m26s</td>
+<td>1.10s</td>
+<td>0.36s</td>
+<td>0.77s</td>
+<td>2.52s</td>
+<td>0.83s-2.37s</td></tr><tr><td class="alt">GlobalTopicsController#index.html [GET]</td>
+<td class="alt">189</td>
+<td class="alt">2m59s</td>
+<td class="alt">0.95s</td>
+<td class="alt">0.25s</td>
+<td class="alt">0.46s</td>
+<td class="alt">2.40s</td>
+<td class="alt">0.67s-1.77s</td></tr><tr><td>NewslettersController#index.html [GET]</td>
+<td>25</td>
+<td>22.02s</td>
+<td>0.88s</td>
+<td>0.38s</td>
+<td>0.35s</td>
+<td>1.78s</td>
+<td>0.35s-1.80s</td></tr><tr><td class="alt">DiariesController#index.html [GET]</td>
+<td class="alt">9</td>
+<td class="alt">7.88s</td>
+<td class="alt">0.88s</td>
+<td class="alt">0.14s</td>
+<td class="alt">0.57s</td>
+<td class="alt">1.06s</td>
+<td class="alt">0.56s-1.08s</td></tr><tr><td>TopicsController#index.html [GET]</td>
+<td>22</td>
+<td>18.91s</td>
+<td>0.86s</td>
+<td>0.18s</td>
+<td>0.56s</td>
+<td>1.30s</td>
+<td>0.56s-1.31s</td></tr><tr><td class="alt">MessagesController#index.html [GET]</td>
+<td class="alt">196</td>
+<td class="alt">2m38s</td>
+<td class="alt">0.81s</td>
+<td class="alt">0.33s</td>
+<td class="alt">0.54s</td>
+<td class="alt">1.93s</td>
+<td class="alt">0.54s-1.92s</td></tr><tr><td>FunctionRestrictsController#index.html [GET]</td>
+<td>3</td>
+<td>2.41s</td>
+<td>0.80s</td>
+<td>0.46s</td>
+<td>0.32s</td>
+<td>1.24s</td>
+<td>0.32s-1.24s</td></tr><tr><td class="alt">GroupManager::GroupPermissionsController#index.html [GET]</td>
+<td class="alt">2</td>
+<td class="alt">1.58s</td>
+<td class="alt">0.79s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.78s</td>
+<td class="alt">0.80s</td>
+<td class="alt">0.77s-0.81s</td></tr><tr><td>MailConfigsController#index.html [GET]</td>
+<td>3</td>
+<td>2.19s</td>
+<td>0.73s</td>
+<td>0.28s</td>
+<td>0.57s</td>
+<td>1.05s</td>
+<td>0.56s-1.06s</td></tr><tr><td class="alt">WorkflowsController#index.html [GET]</td>
+<td class="alt">173</td>
+<td class="alt">1m52s</td>
+<td class="alt">0.65s</td>
+<td class="alt">0.21s</td>
+<td class="alt">0.34s</td>
+<td class="alt">1.59s</td>
+<td class="alt">0.53s-1.29s</td></tr><tr><td>BookmarksController#index.html [GET]</td>
+<td>32</td>
+<td>20.21s</td>
+<td>0.63s</td>
+<td>0.28s</td>
+<td>0.32s</td>
+<td>1.50s</td>
+<td>0.32s-1.51s</td></tr><tr><td class="alt">CallNotesController#index.html [GET]</td>
+<td class="alt">93</td>
+<td class="alt">54.83s</td>
+<td class="alt">0.59s</td>
+<td class="alt">0.20s</td>
+<td class="alt">0.31s</td>
+<td class="alt">1.45s</td>
+<td class="alt">0.31s-1.33s</td></tr><tr><td>NewsItemsController#index.html [GET]</td>
+<td>55</td>
+<td>32.12s</td>
+<td>0.58s</td>
+<td>0.22s</td>
+<td>0.33s</td>
+<td>1.90s</td>
+<td>0.33s-1.13s</td></tr><tr><td class="alt">QuestionnaireController#index.html [GET]</td>
+<td class="alt">98</td>
+<td class="alt">53.85s</td>
+<td class="alt">0.55s</td>
+<td class="alt">0.20s</td>
+<td class="alt">0.32s</td>
+<td class="alt">1.33s</td>
+<td class="alt">0.33s-1.21s</td></tr><tr><td>ContentTemplatesController#index.html [GET]</td>
+<td>11</td>
+<td>6.01s</td>
+<td>0.55s</td>
+<td>0.11s</td>
+<td>0.33s</td>
+<td>0.69s</td>
+<td>0.33s-0.70s</td></tr><tr><td class="alt">GroupManager::GroupMembershipsController#index.html [GET]</td>
+<td class="alt">1</td>
+<td class="alt">0.54s</td>
+<td class="alt">0.54s</td>
+<td class="alt">0.00s</td>
+<td class="alt">0.54s</td>
+<td class="alt">0.54s</td>
+<td class="alt">0.54s-0.56s</td></tr><tr><td>GroupManager::DisplayOnoffsController#index.html [GET]</td>
+<td>1</td>
+<td>0.54s</td>
+<td>0.54s</td>
+<td>0.00s</td>
+<td>0.54s</td>
+<td>0.54s</td>
+<td>0.54s-0.56s</td></tr></table><br/>
+<table id="mytable" cellspacing="0"><tr><th>Database time - by sum</th>
+<th>Hits</th>
+<th>Sum</th>
+<th>Mean</th>
+<th>StdDev</th>
+<th>Min</th>
+<th>Max</th>
+<th>95 %tile</th></tr><tr><td class="alt">SchedulesController#index.html [GET]</td>
+<td class="alt">555</td>
+<td class="alt">13.17s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.20s</td>
+<td class="alt">0.01s-0.09s</td></tr><tr><td>GroupSchedulesController#index.html [GET]</td>
+<td>257</td>
+<td>5.52s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.08s</td>
+<td>0.01s-0.06s</td></tr><tr><td class="alt">GlobalTopicsController#index.html [GET]</td>
+<td class="alt">189</td>
+<td class="alt">4.68s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.21s</td>
+<td class="alt">0.01s-0.11s</td></tr><tr><td>MessagesController#index.html [GET]</td>
+<td>196</td>
+<td>4.41s</td>
+<td>0.02s</td>
+<td>0.03s</td>
+<td>0.01s</td>
+<td>0.28s</td>
+<td>0.01s-0.08s</td></tr><tr><td class="alt">ReportsController#index.html [GET]</td>
+<td class="alt">133</td>
+<td class="alt">3.72s</td>
+<td class="alt">0.03s</td>
+<td class="alt">0.03s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.13s</td>
+<td class="alt">0.01s-0.13s</td></tr><tr><td>WorkflowsController#index.html [GET]</td>
+<td>173</td>
+<td>2.88s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.01s</td>
+<td>0.07s</td>
+<td>0.01s-0.06s</td></tr><tr><td class="alt">WikiPageRelatedContentsController#index.html [GET]</td>
+<td class="alt">78</td>
+<td class="alt">1.77s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.07s</td>
+<td class="alt">0.00s-0.06s</td></tr><tr><td>QuestionnaireController#index.html [GET]</td>
+<td>98</td>
+<td>1.63s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.08s</td>
+<td>0.01s-0.07s</td></tr><tr><td class="alt">TasksController#index.html [GET]</td>
+<td class="alt">102</td>
+<td class="alt">1.61s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.10s</td>
+<td class="alt">0.01s-0.08s</td></tr><tr><td>CallNotesController#index.html [GET]</td>
+<td>93</td>
+<td>1.52s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.08s</td>
+<td>0.01s-0.06s</td></tr><tr><td class="alt">TopicRelatedContentsController#index.html [GET]</td>
+<td class="alt">115</td>
+<td class="alt">1.26s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.00s</td>
+<td class="alt">0.04s</td>
+<td class="alt">0.00s-0.04s</td></tr><tr><td>FileItemRelatedContentsController#index.html [GET]</td>
+<td>45</td>
+<td>1.18s</td>
+<td>0.03s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.10s</td>
+<td>0.00s-0.10s</td></tr><tr><td class="alt">WorkflowFormsController#index.html [GET]</td>
+<td class="alt">91</td>
+<td class="alt">0.93s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.04s</td>
+<td class="alt">0.01s-0.03s</td></tr><tr><td>ReportRelatedContentsController#index.html [GET]</td>
+<td>50</td>
+<td>0.79s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.01s</td>
+<td>0.06s</td>
+<td>0.00s-0.06s</td></tr><tr><td class="alt">FileManagerFolderFileItemsController#index.json [GET]</td>
+<td class="alt">103</td>
+<td class="alt">0.75s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.00s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.04s</td>
+<td class="alt">0.00s-0.02s</td></tr><tr><td>NewsItemsController#index.html [GET]</td>
+<td>55</td>
+<td>0.70s</td>
+<td>0.01s</td>
+<td>0.01s</td>
+<td>0.01s</td>
+<td>0.06s</td>
+<td>0.01s-0.06s</td></tr><tr><td class="alt">BookmarksController#index.html [GET]</td>
+<td class="alt">32</td>
+<td class="alt">0.61s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.08s</td>
+<td class="alt">0.01s-0.08s</td></tr><tr><td>NewslettersController#index.html [GET]</td>
+<td>25</td>
+<td>0.51s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.07s</td>
+<td>0.01s-0.07s</td></tr><tr><td class="alt">TopicsController#index.html [GET]</td>
+<td class="alt">22</td>
+<td class="alt">0.41s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.03s</td>
+<td class="alt">0.01s-0.03s</td></tr><tr><td>WikiPagesController#index.html [GET]</td>
+<td>11</td>
+<td>0.33s</td>
+<td>0.03s</td>
+<td>0.01s</td>
+<td>0.02s</td>
+<td>0.04s</td>
+<td>0.02s-0.04s</td></tr></table><br/>
+<table id="mytable" cellspacing="0"><tr><th>Database time - by mean</th>
+<th>Hits</th>
+<th>Sum</th>
+<th>Mean</th>
+<th>StdDev</th>
+<th>Min</th>
+<th>Max</th>
+<th>95 %tile</th></tr><tr><td class="alt">DiarySubscriptionsController#index.html [GET]</td>
+<td class="alt">5</td>
+<td class="alt">0.18s</td>
+<td class="alt">0.04s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.07s</td>
+<td class="alt">0.01s-0.07s</td></tr><tr><td>WikiPagesController#index.html [GET]</td>
+<td>11</td>
+<td>0.33s</td>
+<td>0.03s</td>
+<td>0.01s</td>
+<td>0.02s</td>
+<td>0.04s</td>
+<td>0.02s-0.04s</td></tr><tr><td class="alt">FunctionRestrictsController#index.html [GET]</td>
+<td class="alt">3</td>
+<td class="alt">0.08s</td>
+<td class="alt">0.03s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.04s</td>
+<td class="alt">0.01s-0.05s</td></tr><tr><td>ReportsController#index.html [GET]</td>
+<td>133</td>
+<td>3.72s</td>
+<td>0.03s</td>
+<td>0.03s</td>
+<td>0.01s</td>
+<td>0.13s</td>
+<td>0.01s-0.13s</td></tr><tr><td class="alt">FileItemRelatedContentsController#index.html [GET]</td>
+<td class="alt">45</td>
+<td class="alt">1.18s</td>
+<td class="alt">0.03s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.10s</td>
+<td class="alt">0.00s-0.10s</td></tr><tr><td>GlobalTopicsController#index.html [GET]</td>
+<td>189</td>
+<td>4.68s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.21s</td>
+<td>0.01s-0.11s</td></tr><tr><td class="alt">SchedulesController#index.html [GET]</td>
+<td class="alt">555</td>
+<td class="alt">13.17s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.20s</td>
+<td class="alt">0.01s-0.09s</td></tr><tr><td>WikiPageRelatedContentsController#index.html [GET]</td>
+<td>78</td>
+<td>1.77s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.07s</td>
+<td>0.00s-0.06s</td></tr><tr><td class="alt">MessagesController#index.html [GET]</td>
+<td class="alt">196</td>
+<td class="alt">4.41s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.03s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.28s</td>
+<td class="alt">0.01s-0.08s</td></tr><tr><td>GroupSchedulesController#index.html [GET]</td>
+<td>257</td>
+<td>5.52s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.08s</td>
+<td>0.01s-0.06s</td></tr><tr><td class="alt">NewslettersController#index.html [GET]</td>
+<td class="alt">25</td>
+<td class="alt">0.51s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.07s</td>
+<td class="alt">0.01s-0.07s</td></tr><tr><td>BookmarksController#index.html [GET]</td>
+<td>32</td>
+<td>0.61s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.08s</td>
+<td>0.01s-0.08s</td></tr><tr><td class="alt">TopicsController#index.html [GET]</td>
+<td class="alt">22</td>
+<td class="alt">0.41s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.03s</td>
+<td class="alt">0.01s-0.03s</td></tr><tr><td>DiariesController#index.html [GET]</td>
+<td>9</td>
+<td>0.15s</td>
+<td>0.02s</td>
+<td>0.00s</td>
+<td>0.01s</td>
+<td>0.02s</td>
+<td>0.01s-0.02s</td></tr><tr><td class="alt">WorkflowsController#index.html [GET]</td>
+<td class="alt">173</td>
+<td class="alt">2.88s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.07s</td>
+<td class="alt">0.01s-0.06s</td></tr><tr><td>QuestionnaireController#index.html [GET]</td>
+<td>98</td>
+<td>1.63s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.08s</td>
+<td>0.01s-0.07s</td></tr><tr><td class="alt">CallNotesController#index.html [GET]</td>
+<td class="alt">93</td>
+<td class="alt">1.52s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.08s</td>
+<td class="alt">0.01s-0.06s</td></tr><tr><td>ReportRelatedContentsController#index.html [GET]</td>
+<td>50</td>
+<td>0.79s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.01s</td>
+<td>0.06s</td>
+<td>0.00s-0.06s</td></tr><tr><td class="alt">BookmarkRelatedContentsController#index.html [GET]</td>
+<td class="alt">4</td>
+<td class="alt">0.06s</td>
+<td class="alt">0.02s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.01s</td>
+<td class="alt">0.03s</td>
+<td class="alt">0.00s-0.03s</td></tr><tr><td>TasksController#index.html [GET]</td>
+<td>102</td>
+<td>1.61s</td>
+<td>0.02s</td>
+<td>0.02s</td>
+<td>0.01s</td>
+<td>0.10s</td>
+<td>0.01s-0.08s</td></tr></table><h2>Process blockers (> 1 sec duration)</h2>
+<table id="mytable" cellspacing="0"><tr><td class="alt">SchedulesController#index.html [GET]</td>
+<td class="alt">474 hits</td>
+<td class="alt">31.5%</td>
+<td class="alt"><div class='color_bar' style="width:63px;"/></td></tr><tr><td>MessagesController#index.html [GET]</td>
+<td>196 hits</td>
+<td>13.0%</td>
+<td><div class='color_bar' style="width:26px;"/></td></tr><tr><td class="alt">GlobalTopicsController#index.html [GET]</td>
+<td class="alt">188 hits</td>
+<td class="alt">12.5%</td>
+<td class="alt"><div class='color_bar' style="width:25px;"/></td></tr><tr><td>ReportsController#index.html [GET]</td>
+<td>133 hits</td>
+<td>8.8%</td>
+<td><div class='color_bar' style="width:17px;"/></td></tr><tr><td class="alt">GroupSchedulesController#index.html [GET]</td>
+<td class="alt">114 hits</td>
+<td class="alt">7.6%</td>
+<td class="alt"><div class='color_bar' style="width:15px;"/></td></tr><tr><td>WorkflowsController#index.html [GET]</td>
+<td>108 hits</td>
+<td>7.2%</td>
+<td><div class='color_bar' style="width:14px;"/></td></tr><tr><td class="alt">QuestionnaireController#index.html [GET]</td>
+<td class="alt">43 hits</td>
+<td class="alt">2.9%</td>
+<td class="alt"><div class='color_bar' style="width:5px;"/></td></tr><tr><td>CallNotesController#index.html [GET]</td>
+<td>36 hits</td>
+<td>2.4%</td>
+<td><div class='color_bar' style="width:4px;"/></td></tr><tr><td class="alt">TasksController#index.html [GET]</td>
+<td class="alt">29 hits</td>
+<td class="alt">1.9%</td>
+<td class="alt"><div class='color_bar' style="width:3px;"/></td></tr><tr><td>NewsItemsController#index.html [GET]</td>
+<td>23 hits</td>
+<td>1.5%</td>
+<td><div class='color_bar' style="width:3px;"/></td></tr><tr><td class="alt">WikiPageRelatedContentsController#index.html [GET]</td>
+<td class="alt">22 hits</td>
+<td class="alt">1.5%</td>
+<td class="alt"><div class='color_bar' style="width:2px;"/></td></tr><tr><td>TopicsController#index.html [GET]</td>
+<td>22 hits</td>
+<td>1.5%</td>
+<td><div class='color_bar' style="width:2px;"/></td></tr><tr><td class="alt">NewslettersController#index.html [GET]</td>
+<td class="alt">21 hits</td>
+<td class="alt">1.4%</td>
+<td class="alt"><div class='color_bar' style="width:2px;"/></td></tr><tr><td>FileItemRelatedContentsController#index.html [GET]</td>
+<td>16 hits</td>
+<td>1.1%</td>
+<td><div class='color_bar' style="width:2px;"/></td></tr><tr><td class="alt">BookmarksController#index.html [GET]</td>
+<td class="alt">14 hits</td>
+<td class="alt">0.9%</td>
+<td class="alt"><div class='color_bar' style="width:1px;"/></td></tr><tr><td>WorkflowFormsController#index.html [GET]</td>
+<td>14 hits</td>
+<td>0.9%</td>
+<td><div class='color_bar' style="width:1px;"/></td></tr><tr><td class="alt">WikiPagesController#index.html [GET]</td>
+<td class="alt">11 hits</td>
+<td class="alt">0.7%</td>
+<td class="alt"><div class='color_bar' style="width:1px;"/></td></tr><tr><td>TopicRelatedContentsController#index.html [GET]</td>
+<td>8 hits</td>
+<td>0.5%</td>
+<td><div class='color_bar' style="width:1px;"/></td></tr><tr><td class="alt">DiariesController#index.html [GET]</td>
+<td class="alt">8 hits</td>
+<td class="alt">0.5%</td>
+<td class="alt"><div class='color_bar' style="width:1px;"/></td></tr><tr><td>ReportRelatedContentsController#index.html [GET]</td>
+<td>7 hits</td>
+<td>0.5%</td>
+<td><div class='color_bar' style="width:0px;"/></td></tr></table><h2>Failed requests</h2>
+<table id="mytable" cellspacing="0"><tr><td class="alt">WillPaginate::InvalidPage</td>
+<td class="alt">2 hits</td>
+<td class="alt">100.0%</td>
+<td class="alt"><div class='color_bar' style="width:200px;"/></td></tr></table><hr /><h2>Thanks for using request-log-analyzer</h2><p>For more information please visit the <a href="http://github.com/wvanbergen/request-log-analyzer">Request-log-analyzer website</a></p><p>If you need an expert who can analyze your application, mail to <a href="mailto:contact@railsdoctors.com">contact@railsdoctors.com</a> or visit us at <a href="http://railsdoctors.com">http://railsdoctors.com</a>.</p></body></html>
