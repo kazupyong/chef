@@ -3,6 +3,11 @@
 .settings/*
 .settings
 
+.idea
+.idea/*
+.vagrant
+.vagrant/*
+
 *.gem
 *.rbc
 .bundle
