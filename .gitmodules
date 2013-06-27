@@ -1,0 +1,9 @@
+[submodule "mysql"]
+	path = mysql
+	url = git@github.com:kazupyong/mysql.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git@github.com:kazupyong/mysql.git
+[submodule "cookbooks/nginx"]
+	path = cookbooks/nginx
+	url = git@github.com:kazupyong/nginx.git
